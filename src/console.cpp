@@ -1,14 +1,18 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "../include/console.hpp"
+#include "../include/input_buffer.hpp"
 using namespace std;
 
 void console(){
     string in;
+    vector<string> history;
     while(1)
     {
         cout << "ironhold>";
-        cin >> in;
+        getline(cin,in);
+        history.push_back(in);
         if(in==".quit") break;
         if(in == ".help")
         {
@@ -32,7 +36,9 @@ void console(){
         else {
             cout << "[World command queued: <input>]";
         }
+        InputBuffer buffer;
+        buffer.processAndLog(history, "ironhold_clean.log");
+
 
     }
-
 }
