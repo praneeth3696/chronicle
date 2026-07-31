@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "../include/console.hpp"
-#include "../include/input_buffer.hpp"
+#include "console.hpp"
+#include "input_buffer.hpp"
 using namespace std;
 
 void console(){

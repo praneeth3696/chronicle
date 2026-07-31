@@ -1,5 +1,5 @@
 CXX=g++
-CXXFLAGS= -Wall -g
+CXXFLAGS= -Wall -g -Iinclude
 TARGET = chronicle
 
 all:$(TARGET)

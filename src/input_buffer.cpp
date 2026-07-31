@@ -1,4 +1,4 @@
-    #include "../include/input_buffer.hpp"
+    #include "input_buffer.hpp"
     #include <fstream>
     #include <iostream>
     #include <chrono>   // Added for system clock
@@ -26,7 +26,7 @@
         std::stringstream ss;
         ss << "[" << std::put_time(std::localtime(&currentTime), "%Y-%m-%d %H:%M:%S") << "]";
 
-            logFile << "\n--- Session Run: " << ss.str() << " ---\n";
+            logFile << "\n--- Session Run: " << ss.str() << " ---";
 
 
         for (const std::string& rawCmd : history) {
