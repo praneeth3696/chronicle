@@ -29,6 +29,7 @@ chronicle/
 ## Milestone Progress
 
 ### Milestone 1 — The Game Debug Console (Completed)
+
 - **Interactive REPL**: Displays `ironhold> ` prompt accepting user commands.
 - **System Dot-Commands**:
   - `.quit`: Cleanly flushes history log and exits the engine.
@@ -39,6 +40,7 @@ chronicle/
 - **Input Buffer**: Trims leading/trailing whitespace and maintains session history.
 
 ### Milestone 2 — Entity Commands and In-Memory World State (Completed)
+
 - **`Player` Entity Structure**:
   - `id`: Positive integer (unique per player).
   - `username`: String (up to 32 characters).
@@ -54,9 +56,12 @@ chronicle/
 
 ---
 
+Milestone 2 completed successfully
+
 ## Build & Usage Instructions
 
 ### Building Chronicle
+
 Requires a C++20 compliant compiler (`g++` or `clang++`).
 
 ```bash
@@ -64,11 +69,13 @@ make clean && make
 ```
 
 ### Running the Engine
+
 ```bash
 ./chronicle
 ```
 
 ### Example Session
+
 ```text
 ironhold> .version
 Chronicle v0.1 — Ironhold World Engine
