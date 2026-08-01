@@ -26,15 +26,13 @@ chronicle/
 └── README.md                   # Engine documentation
 ```
 
-
 ## Project Flow
 
 <p align="center">
 
   <img src="assets/flow.png" alt="Chronicle Flow" width="1000">
 
-</p>
----
+## </p>
 
 ## Milestone Progress
 
@@ -67,8 +65,8 @@ chronicle/
 
 - **Binary Entity Layout (`PlayerRecord`)**:
   - Each player record is packed into exactly **291 bytes**:
-    - `Offset 0, Size 4`   : `id` (32-bit Little-Endian `uint32_t`).
-    - `Offset 4, Size 32`  : `username` (null-padded to 32 bytes).
+    - `Offset 0, Size 4` : `id` (32-bit Little-Endian `uint32_t`).
+    - `Offset 4, Size 32` : `username` (null-padded to 32 bytes).
     - `Offset 36, Size 255`: `email` (null-padded to 255 bytes).
 - **Page & Pager Engine Architecture**:
   - **Page Size**: Hardware-aligned 4KB pages (`PAGE_SIZE = 4096 bytes`).
@@ -104,6 +102,7 @@ make clean && make
 ### Example Session Across Server Restarts
 
 **Session 1 — Spawning Entities & Saving World:**
+
 ```text
 $ ./chronicle ironhold.world
 ironhold> SPAWN PLAYER 1 alice alice@ironhold.gg
@@ -117,6 +116,7 @@ $
 ```
 
 **Session 2 — Restarting Engine & Restoring World:**
+
 ```text
 $ ./chronicle ironhold.world
 ironhold> LIST PLAYERS
