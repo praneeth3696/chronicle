@@ -1,293 +1,429 @@
 
---- Session Run: [2026-07-31 11:38:14] ---
-.help
-
---- Session Run: [2026-07-31 11:38:16] ---
-.help
-.status
-
---- Session Run: [2026-07-31 20:26:41] ---.help
-
---- Session Run: [2026-07-31 20:26:47] ---.help
-.version
-
---- Session Run: [2026-07-31 23:24:48] ---
-.help
-
---- Session Run: [2026-07-31 23:24:48] ---
-.xyzzy
-
---- Session Run: [2026-07-31 23:24:48] ---
-.xyzzy
-.version
-
---- Session Run: [2026-07-31 23:24:48] ---
-SPAWN PLAYER 1 alice a@a.gg
-
---- Session Run: [2026-07-31 23:24:48] ---
-SPAWN PLAYER 1 alice a@a.gg
-LIST PLAYERS
-
---- Session Run: [2026-07-31 23:24:48] ---
-
---- Session Run: [2026-07-31 23:24:48] ---
-
---- Session Run: [2026-07-31 23:24:48] ---
-.status
-
---- Session Run: [2026-07-31 23:24:48] ---
-.status
-
---- Session Run: [2026-07-31 23:24:48] ---
-.status
-.version
-
---- Session Run: [2026-07-31 23:25:05] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-
---- Session Run: [2026-07-31 23:25:05] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob bob@ironhold.gg
-
---- Session Run: [2026-07-31 23:25:05] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob bob@ironhold.gg
-LIST PLAYERS
-
---- Session Run: [2026-07-31 23:25:05] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob bob@ironhold.gg
-LIST PLAYERS
-SPAWN PLAYER -1 bad email
-
---- Session Run: [2026-07-31 23:25:05] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob bob@ironhold.gg
-LIST PLAYERS
-SPAWN PLAYER -1 bad email
-SPAWN PLAYER 3 areallylongnamethatexceedsthirtytwochars x@x.com
-
---- Session Run: [2026-07-31 23:25:09] ---
-SPAWN PLAYER 5 bob b@b.com
-
---- Session Run: [2026-07-31 23:25:09] ---
-SPAWN PLAYER 5 bob b@b.com
-SPAWN PLAYER 2 alice a@a.com
-
---- Session Run: [2026-07-31 23:25:09] ---
-SPAWN PLAYER 5 bob b@b.com
-SPAWN PLAYER 2 alice a@a.com
-LIST PLAYERS
-
---- Session Run: [2026-08-01 10:12:46] ---
-SPAWN PLAYER 5 bob bob@ironhold.gg
-SPAWN PLAYER 2 alice alice@ironhold.gg
-LIST PLAYERS
-SPAWN PLAYER 2 charlie duplicate@ironhold.gg
-SPAWN PLAYER -5 invalid email@x.com
-SPAWN PLAYER 3 thisusernameiswaytoolongtofitwithinthirtytwochars user@test.com
-UNKNOWN COMMAND
-.quit
-
---- Session Run: [2026-08-01 10:40:06] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-.quit
-
---- Session Run: [2026-08-01 10:43:15] ---
-SPAWN PLAYER 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:43:15] ---
-SPAWN PLAYER 2 alice aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:43:15] ---
-SPAWN PLAYER 3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:43:15] ---
-SPAWN PLAYER 4 alice
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob   bob@ironhold.gg
-LIST PLAYERS
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER -1 alice a@a.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 0 alice a@a.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 1 alice a@a.gg
-SPAWN PLAYER 1 bob   b@b.gg
-LIST PLAYERS
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 2 alice aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:02] ---
-SPAWN PLAYER 4 alice
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob   bob@ironhold.gg
-LIST PLAYERS
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER -1 alice a@a.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 0 alice a@a.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 1 alice a@a.gg
-SPAWN PLAYER 1 bob   b@b.gg
-LIST PLAYERS
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 2 alice aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:22] ---
-SPAWN PLAYER 4 alice
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob   bob@ironhold.gg
-LIST PLAYERS
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER -1 alice a@a.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 0 alice a@a.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 1 alice a@a.gg
-SPAWN PLAYER 1 bob   b@b.gg
-LIST PLAYERS
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 2 alice aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
-SPAWN PLAYER 4 alice
-.quit
-
---- Session Run: [2026-08-01 10:44:53] ---
+--- Session Run: [2026-08-01 14:16:32] ---
 .version
 .quit
 
---- Session Run: [2026-08-01 10:44:53] ---
+--- Session Run: [2026-08-01 14:16:32] ---
 .help
 .quit
 
---- Session Run: [2026-08-01 10:44:53] ---
+--- Session Run: [2026-08-01 14:16:32] ---
 .xyzzy
 .version
 .quit
 
---- Session Run: [2026-08-01 10:44:53] ---
+--- Session Run: [2026-08-01 14:16:32] ---
 SPAWN PLAYER 1 alice a@a.gg
 LIST PLAYERS
 .quit
 
---- Session Run: [2026-08-01 10:44:53] ---
+--- Session Run: [2026-08-01 14:16:32] ---
 .status
 .version
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
+--- Session Run: [2026-08-01 14:16:32] ---
 SPAWN PLAYER 1 alice alice@ironhold.gg
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 2 bob bob@ironhold.gg
 SPAWN PLAYER 1 alice alice@ironhold.gg
-SPAWN PLAYER 2 bob   bob@ironhold.gg
 LIST PLAYERS
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
-SPAWN PLAYER -1 alice a@a.gg
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER -1 alice alice@ironhold.gg
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
-SPAWN PLAYER 0 alice a@a.gg
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 0 bob bob@ironhold.gg
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
+--- Session Run: [2026-08-01 14:16:32] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+SPAWN PLAYER 1 bob bob@ironhold.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 1 abcdefghijklmnopqrstuvwxyz1234567 user@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 1 abcdefghijklmnopqrstuvwxyz123456 user@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 2 user aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+SPAWN PLAYER 2 bob bob@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 1 user1 user1@ironhold.gg
+SPAWN PLAYER 2 user2 user2@ironhold.gg
+SPAWN PLAYER 3 user3 user3@ironhold.gg
+SPAWN PLAYER 4 user4 user4@ironhold.gg
+SPAWN PLAYER 5 user5 user5@ironhold.gg
+SPAWN PLAYER 6 user6 user6@ironhold.gg
+SPAWN PLAYER 7 user7 user7@ironhold.gg
+SPAWN PLAYER 8 user8 user8@ironhold.gg
+SPAWN PLAYER 9 user9 user9@ironhold.gg
+SPAWN PLAYER 10 user10 user10@ironhold.gg
+SPAWN PLAYER 11 user11 user11@ironhold.gg
+SPAWN PLAYER 12 user12 user12@ironhold.gg
+SPAWN PLAYER 13 user13 user13@ironhold.gg
+SPAWN PLAYER 14 user14 user14@ironhold.gg
+SPAWN PLAYER 15 user15 user15@ironhold.gg
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 2 user2 user2@ironhold.gg
+SPAWN PLAYER 3 user3 user3@ironhold.gg
+SPAWN PLAYER 4 user4 user4@ironhold.gg
+SPAWN PLAYER 5 user5 user5@ironhold.gg
+SPAWN PLAYER 6 user6 user6@ironhold.gg
+SPAWN PLAYER 7 user7 user7@ironhold.gg
+SPAWN PLAYER 8 user8 user8@ironhold.gg
+SPAWN PLAYER 9 user9 user9@ironhold.gg
+SPAWN PLAYER 10 user10 user10@ironhold.gg
+SPAWN PLAYER 11 user11 user11@ironhold.gg
+SPAWN PLAYER 12 user12 user12@ironhold.gg
+SPAWN PLAYER 13 user13 user13@ironhold.gg
+SPAWN PLAYER 14 user14 user14@ironhold.gg
+SPAWN PLAYER 15 user15 user15@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 10 charlie charlie@ironhold.gg
+SPAWN PLAYER 2 bob bob@ironhold.gg
+SPAWN PLAYER 5 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:32] ---
+SPAWN PLAYER 2 duplicate dup@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:33] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+.version
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+.help
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+.xyzzy
+.version
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
 SPAWN PLAYER 1 alice a@a.gg
-SPAWN PLAYER 1 bob   b@b.gg
 LIST PLAYERS
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
-SPAWN PLAYER 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
+--- Session Run: [2026-08-01 14:16:49] ---
+.status
+.version
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
-SPAWN PLAYER 2 alice aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.gg
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
-SPAWN PLAYER 3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 2 bob bob@ironhold.gg
+SPAWN PLAYER 1 alice alice@ironhold.gg
+LIST PLAYERS
 .quit
 
---- Session Run: [2026-08-01 13:58:17] ---
-SPAWN PLAYER 4 alice
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER -1 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 0 bob bob@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+SPAWN PLAYER 1 bob bob@ironhold.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 1 abcdefghijklmnopqrstuvwxyz1234567 user@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 1 abcdefghijklmnopqrstuvwxyz123456 user@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 2 user aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+SPAWN PLAYER 2 bob bob@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:16:49] ---
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+SPAWN PLAYER 1 user1 user1@ironhold.gg
+SPAWN PLAYER 2 user2 user2@ironhold.gg
+SPAWN PLAYER 3 user3 user3@ironhold.gg
+SPAWN PLAYER 4 user4 user4@ironhold.gg
+SPAWN PLAYER 5 user5 user5@ironhold.gg
+SPAWN PLAYER 6 user6 user6@ironhold.gg
+SPAWN PLAYER 7 user7 user7@ironhold.gg
+SPAWN PLAYER 8 user8 user8@ironhold.gg
+SPAWN PLAYER 9 user9 user9@ironhold.gg
+SPAWN PLAYER 10 user10 user10@ironhold.gg
+SPAWN PLAYER 11 user11 user11@ironhold.gg
+SPAWN PLAYER 12 user12 user12@ironhold.gg
+SPAWN PLAYER 13 user13 user13@ironhold.gg
+SPAWN PLAYER 14 user14 user14@ironhold.gg
+SPAWN PLAYER 15 user15 user15@ironhold.gg
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+SPAWN PLAYER 2 user2 user2@ironhold.gg
+SPAWN PLAYER 3 user3 user3@ironhold.gg
+SPAWN PLAYER 4 user4 user4@ironhold.gg
+SPAWN PLAYER 5 user5 user5@ironhold.gg
+SPAWN PLAYER 6 user6 user6@ironhold.gg
+SPAWN PLAYER 7 user7 user7@ironhold.gg
+SPAWN PLAYER 8 user8 user8@ironhold.gg
+SPAWN PLAYER 9 user9 user9@ironhold.gg
+SPAWN PLAYER 10 user10 user10@ironhold.gg
+SPAWN PLAYER 11 user11 user11@ironhold.gg
+SPAWN PLAYER 12 user12 user12@ironhold.gg
+SPAWN PLAYER 13 user13 user13@ironhold.gg
+SPAWN PLAYER 14 user14 user14@ironhold.gg
+SPAWN PLAYER 15 user15 user15@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+SPAWN PLAYER 10 charlie charlie@ironhold.gg
+SPAWN PLAYER 2 bob bob@ironhold.gg
+SPAWN PLAYER 5 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+SPAWN PLAYER 2 duplicate dup@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:16:50] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:17:11] ---
+.version
+.quit
+
+--- Session Run: [2026-08-01 14:17:11] ---
+.help
+.quit
+
+--- Session Run: [2026-08-01 14:17:11] ---
+.xyzzy
+.version
+.quit
+
+--- Session Run: [2026-08-01 14:17:11] ---
+SPAWN PLAYER 1 alice a@a.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:17:11] ---
+.status
+.version
+.quit
+
+--- Session Run: [2026-08-01 14:17:11] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 2 bob bob@ironhold.gg
+SPAWN PLAYER 1 alice alice@ironhold.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER -1 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 0 bob bob@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+SPAWN PLAYER 1 bob bob@ironhold.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 1 abcdefghijklmnopqrstuvwxyz1234567 user@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 1 abcdefghijklmnopqrstuvwxyz123456 user@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 2 user aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.com
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+SPAWN PLAYER 2 bob bob@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 1 user1 user1@ironhold.gg
+SPAWN PLAYER 2 user2 user2@ironhold.gg
+SPAWN PLAYER 3 user3 user3@ironhold.gg
+SPAWN PLAYER 4 user4 user4@ironhold.gg
+SPAWN PLAYER 5 user5 user5@ironhold.gg
+SPAWN PLAYER 6 user6 user6@ironhold.gg
+SPAWN PLAYER 7 user7 user7@ironhold.gg
+SPAWN PLAYER 8 user8 user8@ironhold.gg
+SPAWN PLAYER 9 user9 user9@ironhold.gg
+SPAWN PLAYER 10 user10 user10@ironhold.gg
+SPAWN PLAYER 11 user11 user11@ironhold.gg
+SPAWN PLAYER 12 user12 user12@ironhold.gg
+SPAWN PLAYER 13 user13 user13@ironhold.gg
+SPAWN PLAYER 14 user14 user14@ironhold.gg
+SPAWN PLAYER 15 user15 user15@ironhold.gg
+.status
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 2 user2 user2@ironhold.gg
+SPAWN PLAYER 3 user3 user3@ironhold.gg
+SPAWN PLAYER 4 user4 user4@ironhold.gg
+SPAWN PLAYER 5 user5 user5@ironhold.gg
+SPAWN PLAYER 6 user6 user6@ironhold.gg
+SPAWN PLAYER 7 user7 user7@ironhold.gg
+SPAWN PLAYER 8 user8 user8@ironhold.gg
+SPAWN PLAYER 9 user9 user9@ironhold.gg
+SPAWN PLAYER 10 user10 user10@ironhold.gg
+SPAWN PLAYER 11 user11 user11@ironhold.gg
+SPAWN PLAYER 12 user12 user12@ironhold.gg
+SPAWN PLAYER 13 user13 user13@ironhold.gg
+SPAWN PLAYER 14 user14 user14@ironhold.gg
+SPAWN PLAYER 15 user15 user15@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 10 charlie charlie@ironhold.gg
+SPAWN PLAYER 2 bob bob@ironhold.gg
+SPAWN PLAYER 5 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+SPAWN PLAYER 2 duplicate dup@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 14:17:12] ---
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:27:45] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 14:28:09] ---
+LIST PLAYERS
+.help
+.version
+.status
 .quit

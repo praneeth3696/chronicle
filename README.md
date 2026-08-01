@@ -26,6 +26,14 @@ chronicle/
 └── README.md                   # Engine documentation
 ```
 
+
+## Project Flow
+
+<p align="center">
+
+  <img src="assets/flow.png" alt="Chronicle Flow" width="1000">
+
+</p>
 ---
 
 ## Milestone Progress

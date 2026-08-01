@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Shared helpers for milestone test scripts.
-# Source this file: source "$(dirname "$0")/../helpers.sh"
+# Source this file: source "$(dirname "$0")/../helpers.sh" or "$(dirname "$0")/../../helpers.sh"
 
 TMPDIR_ROOT=$(mktemp -d)
 trap 'rm -rf "$TMPDIR_ROOT"' EXIT
@@ -10,7 +10,6 @@ trap 'rm -rf "$TMPDIR_ROOT"' EXIT
 # Returns stdout+stderr.
 run_cmd() {
     local binary="$1"; local world="$2"; shift 2
-    local input
     printf '%s\n' "$@" | cat - <(echo ".quit") \
         | "$binary" "$world" 2>&1
 }
@@ -24,7 +23,7 @@ run_no_world() {
 }
 
 # new_world  → prints path to a fresh temp world file
-new_world() { echo "$TMPDIR_ROOT/test_$(date +%N).world"; }
+new_world() { echo "$TMPDIR_ROOT/test_$(date +%s)_$RANDOM.world"; }
 
 # assert_contains OUTPUT PATTERN [MESSAGE]
 assert_contains() {
