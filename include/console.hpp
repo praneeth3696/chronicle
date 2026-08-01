@@ -1,6 +1,9 @@
-#ifndef console_hpp
-#define console_hpp
+#ifndef CONSOLE_HPP
+#define CONSOLE_HPP
 
-void console(); // Function declaration
+#include <string>
 
-#endif
+// Function declaration for the main debug console REPL loop
+void console(const std::string& world_file = "");
+
+#endif // CONSOLE_HPP

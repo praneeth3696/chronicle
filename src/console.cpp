@@ -9,7 +9,8 @@
 
 using namespace std;
 
-AppState handleDotCommand(const string& cmd) {
+// Handles system dot-commands (prefixed with '.')
+AppState handleDotCommand(const string& cmd, WorldState& worldState) {
     if (cmd == ".quit") {
         return AppState::QUIT;
     }
@@ -21,11 +22,18 @@ AppState handleDotCommand(const string& cmd) {
         return AppState::SUCCESS;
     }
     if (cmd == ".version") {
-        cout << "Chronicle v0.1 — Ironhold World Engine\n";
+        cout << "Chronicle v0.1 \u2014 Ironhold World Engine\n";
         return AppState::SUCCESS;
     }
     if (cmd == ".status") {
-        cout << "World: offline\n";
+        if (worldState.hasPager()) {
+            Pager* p = worldState.getPager();
+            cout << "World: online \u2014 " << p->get_filename()
+                 << " (" << p->get_num_entities() << " entities, "
+                 << p->get_num_pages() << " pages)\n";
+        } else {
+            cout << "World: offline\n";
+        }
         return AppState::SUCCESS;
     }
 
@@ -33,10 +41,11 @@ AppState handleDotCommand(const string& cmd) {
     return AppState::UNKNOWN;
 }
 
-void console() {
+// Main interactive REPL console loop
+void console(const string& world_file) {
     string rawInput;
     vector<string> history;
-    WorldState worldState;
+    WorldState worldState(world_file);
     InputBuffer buffer;
 
     while (true) {
@@ -53,7 +62,7 @@ void console() {
         history.push_back(trimmedInput);
 
         if (trimmedInput[0] == '.') {
-            AppState state = handleDotCommand(trimmedInput);
+            AppState state = handleDotCommand(trimmedInput, worldState);
             if (state == AppState::QUIT) {
                 break;
             }
@@ -62,5 +71,7 @@ void console() {
         }
     }
 
+    // Flush dirty binary pages to disk before shutdown
+    worldState.close();
     buffer.processAndLog(history, "ironhold_clean.log");
 }

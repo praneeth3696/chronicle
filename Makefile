@@ -1,11 +1,13 @@
-CXX=g++
-CXXFLAGS= -Wall -g -Iinclude
+CXX = g++
+CXXFLAGS = -Wall -g -std=c++20 -Iinclude
 TARGET = chronicle
 
-all:$(TARGET)
+SRCS = src/main.cpp src/console.cpp src/input_buffer.cpp src/command.cpp src/pager.cpp
 
-$(TARGET): src/main.cpp src/console.cpp src/input_buffer.cpp src/command.cpp
-		$(CXX) $(CXXFLAGS) src/main.cpp src/console.cpp src/input_buffer.cpp src/command.cpp -o $(TARGET)
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+	$(CXX) $(CXXFLAGS) $(SRCS) -o $(TARGET)
 
 clean:
-		rm -f $(TARGET)
+	rm -f $(TARGET) ironhold.world

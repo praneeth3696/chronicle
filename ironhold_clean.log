@@ -251,3 +251,43 @@ LIST PLAYERS
 .status
 .version
 .quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 1 alice alice@ironhold.gg
+SPAWN PLAYER 2 bob   bob@ironhold.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER -1 alice a@a.gg
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 0 alice a@a.gg
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 1 alice a@a.gg
+SPAWN PLAYER 1 bob   b@b.gg
+LIST PLAYERS
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 2 alice aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@x.gg
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 3 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa x@x.gg
+.quit
+
+--- Session Run: [2026-08-01 13:58:17] ---
+SPAWN PLAYER 4 alice
+.quit
