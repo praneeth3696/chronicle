@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Chronicle-v0.3--M3-7B1FA2?style=for-the-badge&logo=game-and-watch" alt="Chronicle v0.3">
   <img src="https://img.shields.io/badge/Storage-4KB%20Binary%20Pages-E65100?style=for-the-badge&logo=database" alt="4KB Pages">
   <img src="https://img.shields.io/badge/Tests-15%2F15%20Passing-2E7D32?style=for-the-badge&logo=checkmarx" alt="Tests 15/15">
-  <img src="https://img.shields.io/badge/License-MIT-D81B60?style=for-the-badge" alt="License MIT">
 </p>
 
 ---
@@ -145,18 +144,5 @@ $
 
 ---
 
-## 🧪 Automated Test Suite Execution
-
-Run the complete 15-test automated milestone verification suite:
-
-```bash
-for suite in tests/testsm1 tests/testsm2 tests/testsm3; do
-    echo "=== $suite ==="
-    for t in "$suite"/*.sh; do
-        bash "$t" ./chronicle
-    done
-done
-```
-```text
 Total Test Suites: 15 | Passed: 15 | Failed: 0 | Status: 100% Operational
 ```
