@@ -8,7 +8,7 @@
 #   Empty lines must be silently skipped — the prompt should
 #   reappear without error output.
 # ─────────────────────────────────────────────────────────────────
-source "../helpers.sh"
+source "$(dirname "$0")/../../helpers.sh"
 BINARY="${1:-../chronicle}"
 NAME="M1/05 — .status responds; empty lines skipped"
 OK=true

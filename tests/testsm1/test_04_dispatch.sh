@@ -8,7 +8,7 @@
 #   For M1, the world handler is a stub — it prints something like
 #   "[World command queued: <input>]" and does not crash.
 # ─────────────────────────────────────────────────────────────────
-source "$(dirname "$0")/../helpers.sh"
+source "$(dirname "$0")/../../helpers.sh"
 BINARY="${1:-./chronicle}"
 NAME="M1/04 — Non-dot lines dispatched to world handler"
 OK=true
