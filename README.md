@@ -58,6 +58,8 @@ chronicle/
 
 Milestone 2 completed successfully
 
+starting milestone 3
+
 ## Build & Usage Instructions
 
 ### Building Chronicle
